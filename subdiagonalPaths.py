@@ -6,12 +6,12 @@ Created on Sun Jun 11 15:38:24 2017
 """
 
 
-a = 1           //the number of squares in the big square
+a = 1           #the number of squares in the big square
 totalSum = 0
-n = a - 1       //a constant that represents the number of
-                //duplicate paths at each iteration given its size
+n = a - 1       #a constant that represents the number of
+                #duplicate paths at each iteration given its size
 
-//run through all possible combos of paths
+#run through all possible combos of paths
 for i in range(int((a*a-a)/2)):
     """here i is just the number of squares under the path
     and above the bottom of the square.
@@ -27,5 +27,5 @@ for i in range(int((a*a-a)/2)):
     else:
         totalSum = totalSum + n
             
-//print total sum plus trivial path that hugs the diag
+#print total sum plus trivial path that hugs the diag
 print(totalSum + 1)
