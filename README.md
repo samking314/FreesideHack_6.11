@@ -1,6 +1,6 @@
 # FreesideHack_6.11
 
-The problem I solved at the Freeside Hackathon no 6/11 is below:
+The problem I solved at the Freeside Hackathon on 6/11 is below:
 
 
 Sub­Diagonal Paths (prob2)
